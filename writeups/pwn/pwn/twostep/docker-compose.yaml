@@ -1,0 +1,6 @@
+services:
+  cit-pwn-twostep:
+    build: .
+    ports:
+      - 6003:5000
+    privileged: true

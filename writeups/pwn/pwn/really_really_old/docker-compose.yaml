@@ -1,0 +1,6 @@
+services:
+  cit-pwn-really_really_old:
+    build: .
+    ports:
+      - 6000:5000
+    privileged: true

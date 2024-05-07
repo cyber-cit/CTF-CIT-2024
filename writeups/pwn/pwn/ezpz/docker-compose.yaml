@@ -1,0 +1,6 @@
+services:
+  cit-pwn-ezpz:
+    build: .
+    ports:
+      - 6002:5000
+    privileged: true

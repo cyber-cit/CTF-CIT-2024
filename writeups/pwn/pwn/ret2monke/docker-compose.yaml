@@ -1,0 +1,6 @@
+services:
+  cit-pwn-ret2monke:
+    build: .
+    ports:
+      - 6001:5000
+    privileged: true

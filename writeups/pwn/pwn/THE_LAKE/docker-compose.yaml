@@ -1,0 +1,6 @@
+services:
+  cit-pwn-the_lake:
+    build: .
+    ports:
+      - 6005:5000
+    privileged: true

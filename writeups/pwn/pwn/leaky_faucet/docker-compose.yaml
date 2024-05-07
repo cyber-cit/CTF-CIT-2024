@@ -1,0 +1,6 @@
+services:
+  cit-pwn-leaky_faucet:
+    build: .
+    ports:
+      - 6004:5000
+    privileged: true
